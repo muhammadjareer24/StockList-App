@@ -23,7 +23,8 @@ const StockTable: React.FC<StockTableTypes> = ({
             <td>{productQuantity}</td>
             <td>
               <button id="delete-btn" onClick={() => handleDeleteProduct(id)}>
-                <i className="fa-solid fa-trash"></i>Delete
+                <i className="fa-solid fa-trash"></i>
+                <span>Delete</span>
               </button>
               <button
                 id="edit-btn"
@@ -31,7 +32,8 @@ const StockTable: React.FC<StockTableTypes> = ({
                   handleEditClick({ id, productName, productQuantity })
                 }
               >
-                <i className="fa-solid fa-edit"></i>Edit
+                <i className="fa-solid fa-edit"></i>
+                <span>Edit</span>
               </button>
             </td>
           </tr>

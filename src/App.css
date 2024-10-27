@@ -111,3 +111,24 @@ table #edit-btn:hover {
   background-color: #0056b3;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 600px) {
+  table #delete-btn,
+  table #edit-btn {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    place-self: center; */
+    padding: 5px 5px;
+    margin: 2px;
+  }
+  /* table #edit-btn {
+    margin-top: 4px;
+  } */
+  span {
+    display: none;
+  }
+  button i {
+    margin: 0;
+  }
+}
