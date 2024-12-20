@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# StockList App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**StockList App** is a simple, yet powerful inventory management tool designed to help users efficiently manage their product stock. Built with React and Tailwind CSS, this app allows for easy addition, modification, and removal of products from the inventory.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Products**: Quickly input new items into the inventory.
+- **Edit Products**: Modify existing product entries with ease.
+- **Delete Products**: Effortlessly remove items from the inventory.
 
-## Expanding the ESLint configuration
+## Technical Highlights
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Reusable Components**: The app is built with clean and maintainable code, utilizing reusable components.
+- **Type Definitions**: Types are implemented in `types.d.ts` to improve code quality and type safety.
+- **Responsive Design**: The app offers a seamless experience on all devices, ensuring usability on both desktop and mobile.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling and ensuring a responsive and visually appealing layout.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Live Preview
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Check out the live demo here:  
+[Live Preview](https://lnkd.in/dsK2_mSn)
