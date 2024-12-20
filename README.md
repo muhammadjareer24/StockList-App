@@ -22,4 +22,4 @@
 ## Live Preview
 
 Check out the live demo here:  
-[Live Preview](https://lnkd.in/dsK2_mSn)
+[Live Preview](https://stock-list-app.vercel.app/)
